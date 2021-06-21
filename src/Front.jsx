@@ -10,7 +10,7 @@ const Front = () => {
                 <div style={{textAlign:"right"}}>Tilman J. Fertitta</div>
             </div>
             <div>
-                <img src="E:\Web_developement(HTML)\project_evecons\evecons-app\src\Calculator.png"/>
+                <img src="src\Calculator.png"/>
             </div>
         </div>
     </>

@@ -4,24 +4,25 @@ import Service from './Service'
 import Contact from './Contact'
 import Front from './Front'
 import { Parallax, Background } from 'react-parallax'
+import Head from './Head'
 
-// const image = "E:\Web_developement(HTML)\project_evecons\evecons-app\src\Business-buildings-clouds.jpg"
 const image1 = "https://images.techhive.com/images/article/2016/08/business-buildings-clouds-100678064-large.jpg"
-// const image3 = "https://img00.deviantart.net/2bd0/i/2009/276/c/9/magic_forrest_wallpaper_by_goergen.jpg";
+const image = "https://i.gifer.com/origin/45/454ba38b4ce5b3fdc8796ed710769e69.gif"
 
 function App() {
   return (
     <>
-    <Front/>
+    <Head/>
+    {/* <Front/> */}
     <About/> 
 
-    <Parallax bgImage={ image1 }  strength={-200} > 
+    <Parallax bgImage={ image }  strength={-200} > 
       <div style={{height: 500}}> </div> 
     </Parallax>
 
     <Service/>
     <Contact/> 
-    <div className="foot" style={{height: 200, margin: "10px 250px", }}> <a href="#" > back to top </a> </div>
+    <div className="foot" style={{height: 200, margin: "10px 250px", }}> <a href="#top" > back to top </a> </div>
     </>
   );
 } 

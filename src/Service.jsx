@@ -3,8 +3,8 @@ import './index'
 
 const Service = () => {
     return (
-        <div className = "box">
-            <div className = "about"> Our Service </div> 
+        <div className = "box" id="service">
+            <div className = "about" > Our Service </div> 
             <hr />
             <div style = {{display:"flex"}}>
                 <div className = "para" style={{width:"33.33%"}}>Taxation and Other Allied Services
