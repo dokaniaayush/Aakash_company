@@ -101,6 +101,25 @@ a:hover {
   color: #e3bb8a;
 }
 
+.wave__container{
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  display: block;
+  width: 100%;
+}
+
+.wave__img {
+  position: relative;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  display: block;
+  width: 100%;
+}
 
 /* div{
   margin: 50px;

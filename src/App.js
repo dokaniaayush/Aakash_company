@@ -7,28 +7,36 @@ import { Parallax, Background } from 'react-parallax'
 import Head from './Head'
 
 const image1 = "https://images.techhive.com/images/article/2016/08/business-buildings-clouds-100678064-large.jpg"
-const image = "https://i.gifer.com/origin/45/454ba38b4ce5b3fdc8796ed710769e69.gif"
+// const image = "https://i.gifer.com/origin/45/454ba38b4ce5b3fdc8796ed710769e69.gif"
 
 function App() {
   return (
     <>
-    <Head/>
-    {/* <Front/> */}
-    <About/> 
+      <Head/>
+      {/* <Front/> */}
+      <About/> 
 
-    <Parallax bgImage={ image }  strength={-200} > 
-      <div style={{height: 500}}> </div> 
-    </Parallax>
-
-    <Service/>
-    <Contact/> 
-    <div className="foot" style={{height: 200, margin: "10px 250px", }}> <a href="#top" > back to top </a> </div>
+      {/* <Parallax bgImage={ image1 }  strength={-200} > 
+        <div style={{height: 500}}> </div> 
+      </Parallax> */}
+      
+      <Service/>
+      
+      <Contact/> 
+      <div style={{backgroundColor:"whitesmoke"}}>
+        <div className="foot" style={{height: 200, margin: "10px 250px",  }}>
+          <a href="#top" > back to top </a> 
+        </div>
+      </div>
     </>
   );
 } 
 
 export default App;
 
+{/* <div className="wave__container"> 
+        <img src="https://assets-global.website-files.com/5e557f57e065e822f0adb45d/6077bb787a4adf15975ee5f9_wave5.svg" loading="lazy" className="wave__img"></img>
+      </div> */}
 
 // import React from 'react';
 // import { Parallax } from 'react-parallax';

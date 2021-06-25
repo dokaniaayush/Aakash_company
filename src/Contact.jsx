@@ -1,10 +1,10 @@
-import react from 'react'
+import React from 'react'
 import './index'
 
 const Contact = () => {
     return (
         <>
-            <div className = "about" style = {{margin: "10px 250px"}} id="contact">contact us </div>
+            <div className = "about"  style = {{margin: "10px 250px"}} id="contact">contact us </div>
             <div style={{margin: "10px 250px", display: "flex", flexDirection: "row"}} >
                 <div className="contact" >
                     CONTACT<br/><br/>
